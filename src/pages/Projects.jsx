@@ -8,44 +8,44 @@ const Projects = () => {
   // Enhanced project data with categories and featured flag
   const projects = [
     {
-      title: "Expenz",
-      description:
-        "A full-stack finance management app that empowers users to monitor and analyze their spending. With user authentication, categorized transactions, and an interactive dashboard, it offers a complete overview of income versus expenses.",
-      longDescription:
-        "Visual insights are presented using dynamic charts and graphs, making it easier to identify financial habits. The responsive UI ensures seamless usability across devices, and all user data is stored securely using MongoDB.",
-      technologies: ["React", "Express", "MongoDB", "Chart.js"],
-      demoLink: "#",
-      codeLink: "https://github.com/divyanshuvats10/Expenz",
-      screenshot: "/images/expense-tracker.png",
-      categories: ["Full Stack", "Data Visualization"],
-      featured: true
-    },
-    {
-      title: "YouTub",
-      description:
-        "A full-featured video browsing web app that replicates core functionalities of YouTube. This project leverages the YouTube Data API to fetch real-time video results based on user queries, present detailed video views with suggestions, and display channel info.",
-      longDescription:
-        "The app includes responsive layouts, hover effects, and a smooth embedded player experience. Designed with usability and aesthetics in mind, it supports dark mode, video filtering, and a loading skeleton to enhance UX. Future plans include personalized recommendations, login, and playlist management.",
-      technologies: ["React", "YouTube API", "Tailwind CSS"],
-      demoLink: "#",
-      codeLink: "https://github.com/divyanshuvats10/Yt_backend",
-      screenshot: "/images/youtube-project.png",
-      categories: ["Frontend", "API Integration"],
-      featured: false
-    },
-    {
-      title: "ClassAid",
-      description:
-        "A robust web application tailored for college infrastructure management. This system enables students to register complaints related to classroom amenities such as ACs, lights, and furniture. Admins can assign tasks to workers, track resolutions, and update statuses in real-time.",
-      longDescription: 
-        "The app uses role-based access for students, workers, and admins, with clean navigation through blocks, floors, and rooms. Built with scalability in mind, it offers an intuitive interface and a complete complaint history log for transparency and accountability.",
-      technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-      demoLink: "#",
-      codeLink: "https://github.com/divyanshuvats10/ClassAid",
-      screenshot: "/images/complaint-management.png",
-      categories: ["Full Stack", "Web App"],
-      featured: true
-    },
+    title: "NoteMate – Android Note-Taking App",
+    description:
+      "An Android application that allows users to create, edit, delete, and search notes efficiently with a clean and user-friendly interface.",
+    longDescription:
+      "Built using MVVM architecture with Room database for efficient data handling. Designed responsive UI using RecyclerView and Material Design principles for smooth user experience.",
+    technologies: ["Kotlin", "Jetpack Compose", "Room DB", "MVVM", "Android Studio"],
+    demoLink: "",
+    codeLink: "https://github.com/that-kumar-mayank", 
+    screenshot: "/images/note-app.png",
+    categories: ["Android", "App Development"],
+    featured: true
+  },
+  {
+    title: "Drug Overdose Data Analysis",
+    description:
+      "A data science project analyzing large-scale overdose mortality data to uncover trends across demographics and drug types.",
+    longDescription:
+      "Performed data cleaning, exploratory data analysis, and statistical evaluation. Visualized insights using charts and heatmaps to identify patterns and trends in overdose deaths.",
+    technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "EDA"],
+    demoLink: "",
+    codeLink: "https://github.com/that-kumar-mayank",
+    screenshot: "/images/data-analysis.png",
+    categories: ["Data Science", "Analytics"],
+    featured: true
+  },
+  {
+    title: "Gym Workout Website",
+    description:
+      "A responsive fitness website showcasing workout routines, nutrition plans, and fitness guidance.",
+    longDescription:
+      "Developed structured pages for workouts, diet, and consultations with clean UI and interactive components. Focused on user-friendly navigation and engaging layout.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    demoLink: "",
+    codeLink: "https://github.com/that-kumar-mayank",
+    screenshot: "/images/gym-website.png",
+    categories: ["Web Development", "Frontend"],
+    featured: false
+  }
   ];
 
   // Get unique categories from projects

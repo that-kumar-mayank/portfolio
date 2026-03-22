@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import profileImage from "../assets/div.png"; // Place your image in src/assets/
+import profileImage from "../assets/profileimage.png"; // Place your image in src/assets/
 
 const Home = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -49,7 +49,7 @@ const Home = () => {
             {/* Name with gradient text */}
             <h1 className="text-5xl md:text-7xl font-bold mb-4 text-center">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-400">
-                Divyanshu Vats
+                Kumar Mayank
               </span>
             </h1>
 
@@ -134,7 +134,7 @@ const Home = () => {
                     </div>
                     <div>
                       <p className="text-gray-400 text-sm">Location</p>
-                      <p className="text-gray-200">Haryana, India</p>
+                      <p className="text-gray-200">Bihar, India</p>
                     </div>
                   </div>
                   
@@ -184,20 +184,15 @@ const Home = () => {
                   <h3 className="text-2xl font-semibold text-blue-400 mb-4">My Journey</h3>
                   
                   <p className="text-lg mb-4 leading-relaxed text-gray-200">
-                    Hello! I'm <span className="font-semibold text-purple-400">Divyanshu Vats</span>, a passionate 
-                    developer with a deep fascination for transforming complex problems into elegant digital solutions.
-                  </p>
+                    Hello! I'm <span className="font-semibold text-purple-400">Kumar Mayank</span>, a passionate and driven aspiring software developer who enjoys solving complex problems and building meaningful digital experiences.
+  </p>
                   
                   <p className="text-lg mb-4 leading-relaxed text-gray-300">
-                    My journey in tech began with curious exploration and has evolved into a focused expertise in 
-                    full-stack development. I specialize in crafting responsive, user-centered applications 
-                    using React, Node.js, and modern cloud infrastructure.
+                    I started my journey in tech with curiosity and have developed a strong foundation in programming, data structures, and web development. I love creating responsive and efficient applications using React and modern web technologies.
                   </p>
                   
                   <p className="text-lg leading-relaxed text-gray-300">
-                    What drives me is the intersection of technology and creativity—finding that perfect balance 
-                    between functional code and intuitive design. I'm constantly expanding my skills through hands-on 
-                    projects and keeping up with emerging technologies.
+                    I am always eager to learn, take on challenges, and continuously improve my skills. My goal is to grow as a developer and contribute to building impactful software solutions.
                   </p>
                 </div>
                 
@@ -206,9 +201,9 @@ const Home = () => {
                   <h3 className="text-2xl font-semibold text-blue-400 mb-4">My Approach</h3>
                   
                   <p className="text-lg text-gray-300">
-                    I believe in creating technology that's not just functional but meaningful. Every line of code 
-                    I write aims to solve real problems and enhance user experiences. I value clean architecture, 
-                    collaborative development, and continuous learning as the foundations of great software.
+                    I believe in building technology that goes beyond functionality and creates real impact. I focus on writing clean, efficient code while solving problems with a logical and structured approach.
+
+I value simplicity, continuous learning, and consistency. Every project I work on is an opportunity to improve, explore new ideas, and build solutions that are practical, scalable, and user-focused.
                   </p>
                 </div>
               </div>

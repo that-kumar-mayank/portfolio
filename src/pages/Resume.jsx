@@ -11,127 +11,104 @@ const Resume = () => {
   // Actual resume data based on your provided resume
   const resumeData = {
     education: [
-      {
-        institution: "Lovely Professional University",
-        location: "Punjab, India",
-        degree: "Bachelor of Technology - Computer Science and Engineering",
-        period: "Since August 2022",
-        details: "CGPA: 8.16*"
-      },
-      {
-        institution: "St Theresa's Convent School",
-        location: "Karnal, Haryana",
-        degree: "Intermediate",
-        period: "April 2021 - March 2022",
-        details: "Percentage: 90.4%"
-      },
-      {
-        institution: "Delhi Public School",
-        location: "Karnal, Haryana",
-        degree: "Matriculation",
-        period: "April 2019 - March 2020",
-        details: "Percentage: 93.3%"
-      }
-    ],
-    skills: [
-      { category: "Programming Skills", items: ["Python", "Java", "C", "C++", "JavaScript", "PHP"] },
-      { category: "Tools and Libraries", items: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "MySQL", "Bootstrap", "Tailwind", "GitHub"] },
-      { category: "Soft Skills", items: ["Problem-Solving", "Team player", "Quick learner", "Adaptability"] }
-    ],
-    projects: [
-      {
-        title: "ClassAid",
-        period: "April, 2025",
-        description: [
-          "Built a full-stack app to log and track infrastructure issues across blocks, floors, rooms, and objects",
-          "Implemented role-based access (Admin, Worker, Student, Guest) with session-based auth",
-          "Enabled real-time complaint status updates and object-level history with filtering",
-          "Structured nested data in MongoDB for efficient hierarchy and complaint tracking"
-        ],
-        tech: "HTML, CSS, JavaScript, ReactJs, NodeJs, MongoDB",
-        link: "https://github.com/divyanshuvats10/ClassAid"
-      },
-      {
-        title: "Expenz",
-        period: "November, 2024",
-        description: [
-          "Developed an intuitive expense tracking website to efficiently manage income and expenditures",
-          "Implemented interactive graphs and charts for enhanced data visualization and financial insights",
-          "Enabled users to create customizable categories for better organization of expenses and income",
-          "Integrated user authentication and secure session management to protect financial data and personalize user experience"
-        ],
-        tech: "HTML, CSS, JavaScript, ReactJs, NodeJs, MongoDB, TailwindCS",
-        link: "https://github.com/divyanshuvats10/Expenz"
-      },
-      {
-        title: "YouTub",
-        period: "April, 2024",
-        description: [
-          "Engineered an engaging interface mirroring the YouTube website for a seamless user experience",
-          "Crafted an ad-free video feed to ensure uninterrupted content browsing",
-          "Integrated the YouTube API to dynamically retrieve and showcase video contents",
-          "Implemented responsive design to ensure optimal viewing across devices and screen sizes"
-        ],
-        tech: "HTML, CSS, JavaScript, ReactJS, NodeJS",
-        link: "https://github.com/divyanshuvats10/Yt_backend"
-      }
-    ],
-    experience: [
-      {
-        title: "Complete Interview Preparation",
-        company: "GeeksForGeeks",
-        period: "June - July, 2024",
-        type: "SUMMER TRAINING",
-        description: [
-          "Learned essential DSA, system design, and core CS concepts tailored for coding interviews",
-          "Practiced a wide range of coding problems with step-by-step explanations and solutions",
-          "Gained insights into technical and behavioral interview strategies, including resume building and mock interviews",
-          "Developed a Sudoko Solver as a Project using the DSA skills learned in the course"
-        ]
-      },
-      {
-        title: "Smart India Hackathon",
-        company: "LPU",
-        period: "August, 2024",
-        type: "HACKTHON",
-        description: [
-          "Built an intuitive platform for farmers to list and showcase their products with images",
-          "Differentiated accounts of farmers and consumers providing them different functionality",
-          "Facilitated direct transactions between farmers and consumers for a seamless purchasing experience"
-        ],
-        tech: "HTML, CSS, JavaScript, ReactJs, NodeJs, MongoDB"
-      },
-      {
-        title: "IOT Devices",
-        company: "LPU",
-        period: "March, 2023",
-        type: "WORKSHOP",
-        description: [
-          "Designed an automated highway lighting system for efficient energy usage",
-          "Implemented Arduino to control and manage the lighting mechanism",
-          "Integrated motion sensors and counters to activate lights based on vehicle movement"
-        ],
-        tech: "C, Ardiuno"
-      }
-    ],
-    certificates: [
-      { name: "Cloud Computing", issuer: "NPTEL", date: "October 2024" },
-      { name: "Server side JavaScript with Node.js", issuer: "Coursera", date: "May, 2024" },
-      { name: "HTML, CSS, and Javascript for Web Developers", issuer: "Coursera", date: "May, 2024" }
-    ],
-    achievements: [
-      {
-        title: "One among Dean's top 10% students at University",
-        date: "September, 2024",
-        description: "For good academic performance and extra-curricular activities at University"
-      }
-    ],
-    contact: {
-      email: "divyanshuvats1006@gmail.com",
-      mobile: "+91-8278478622",
-      linkedin: "https://www.linkedin.com/in/divyanshuvats-/",
-      github: "https://github.com/divyanshuvats10"
+    {
+      institution: "Lovely Professional University",
+      location: "Punjab, India",
+      degree: "B.Tech - Computer Science and Engineering",
+      period: "Since Aug 2023",
+      details: "CGPA: 7.6"
+    },
+    {
+      institution: "DAV Public School",
+      location: "Bhagalpur, Bihar",
+      degree: "Intermediate",
+      period: "2021 – 2022",
+      details: "Percentage: 70%"
+    },
+    {
+      institution: "DAV Public School",
+      location: "Bhagalpur, Bihar",
+      degree: "Matriculation",
+      period: "2019 – 2020",
+      details: "Percentage: 90%"
     }
+  ],
+
+  skills: [
+    { category: "Languages", items: ["Python", "Java", "C", "C++", "JavaScript", "Kotlin"] },
+    { category: "Web Development", items: ["HTML", "CSS", "JavaScript", "React"] },
+    { category: "Tools & Platforms", items: ["Git", "GitHub", "Linux", "VS Code", "Android Studio"] },
+    { category: "Libraries & Frameworks", items: ["NumPy", "Pandas", "Matplotlib", "Seaborn", "Firebase"] }
+  ],
+
+  projects: [
+    {
+      title: "NoteMate – Android App",
+      period: "Jan – Feb 2025",
+      description: [
+        "Developed a note-taking app with create, edit, delete, and search functionality",
+        "Implemented MVVM architecture with Room database",
+        "Designed responsive UI using RecyclerView and Material Design"
+      ],
+      tech: "Kotlin, Jetpack Compose, Room DB, MVVM",
+      link: "https://github.com/that-kumar-mayank"
+    },
+    {
+      title: "Drug Overdose Data Analysis",
+      period: "Aug – Sep 2024",
+      description: [
+        "Analyzed large-scale overdose data to identify trends",
+        "Performed data cleaning, EDA, and statistical analysis",
+        "Visualized insights using charts and heatmaps"
+      ],
+      tech: "Python, Pandas, Matplotlib, Seaborn",
+      link: "https://github.com/that-kumar-mayank"
+    },
+    {
+      title: "Gym Workout Website",
+      period: "Nov – Dec 2023",
+      description: [
+        "Built a responsive fitness website with workout and nutrition sections",
+        "Designed clean UI and structured pages for better user experience"
+      ],
+      tech: "HTML, CSS, JavaScript",
+      link: "https://github.com/that-kumar-mayank"
+    }
+  ],
+
+  experience: [
+    {
+      title: "Android Developer Training",
+      company: "LPU",
+      period: "Jun – Jul 2025",
+      type: "TRAINING",
+      description: [
+        "Worked on Android development projects including UI design and API integration",
+        "Learned app lifecycle, debugging, and Play Store deployment basics"
+      ]
+    }
+  ],
+
+  certificates: [
+    { name: "Cloud Computing", issuer: "NPTEL (IIT Kharagpur)", date: "2025" },
+    { name: "Web Development Bootcamp", issuer: "Udemy", date: "2024" },
+    { name: "Responsive Web Design", issuer: "freeCodeCamp", date: "2023" }
+  ],
+
+  achievements: [
+    {
+      title: "Solved 150+ DSA Problems",
+      date: "2024 – Present",
+      description: "Consistently solving problems on LeetCode and strengthening problem-solving skills"
+    }
+  ],
+
+  contact: {
+    email: "kumarmayank0369@gmail.com",
+    mobile: "+91-7004924394",
+    linkedin: "https://linkedin.com/in/that-kumar-mayank",
+    github: "https://github.com/that-kumar-mayank"
+  }
   };
 
   const TabButton = ({ id, label, active }) => (

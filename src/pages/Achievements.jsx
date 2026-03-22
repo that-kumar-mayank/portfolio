@@ -5,30 +5,37 @@ const Achievements = () => {
   
   const achievements = [
     {
-      title: "50-Day Streak on LeetCode",
-      description: "Maintained a 50-day daily problem-solving streak on LeetCode, showcasing consistency and dedication.",
-      date: "April 2025",
-      icon: "🔥",
-    },
-    {
-      title: "150 LeetCode Questions Solved",
-      description: "Solved 150 coding questions on LeetCode in April 2025, strengthening problem-solving and algorithmic thinking.",
-      date: "April 2025",
-      icon: "💡",
-    },    
-
-    {
-      title: "Placed in Deans List - Lovely Professional University",
-      description: "Achieved academic excellence and earned a place on the Dean’s List, recognizing the top 10% of students.",
-      date: "August 2024",
-      icon: "🏆",
-    },
-    {
-      title: "Top Performer - GFG Complete Interview Preparation Course",
-      description: "Completed all modules and challenges in the GFG Complete Interview Preparation course with distinction.",
-      date: "July 2024",
-      icon: "🌟",
-    },
+    title: "Solved 150+ DSA Problems on LeetCode",
+    description:
+      "Solved 150+ problems covering arrays, strings, trees, recursion, and basic dynamic programming concepts.",
+    date: "2024 – Present",
+    icon: "💻",
+    link: "https://leetcode.com/u/that-kumar-mayank/",
+  },
+  {
+    title: "50+ Day Consistency Streak",
+    description:
+      "Maintained a consistent problem-solving streak of over 50 days, demonstrating discipline and continuous learning.",
+    date: "2025",
+    icon: "🔥",
+    link: "https://leetcode.com/u/that-kumar-mayank/",
+  },
+  {
+    title: "Built 3+ Real-World Projects",
+    description:
+      "Developed 3+ projects including web applications and tools using React, JavaScript, and modern technologies.",
+    date: "2024 – Present",
+    icon: "🌐",
+    link: "https://github.com/that-kumar-mayank",
+  },
+  {
+    title: "Earned 5+ Professional Certifications",
+    description:
+      "Completed certifications in Cloud Computing, Web Development, AI tools, and programming fundamentals.",
+    date: "2023 – 2025",
+    icon: "🏆",
+    link: "",
+  },
     
 
   ];

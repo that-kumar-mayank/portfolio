@@ -6,32 +6,45 @@ const Certifications = () => {
 
   const certifications = [
     {
-      title: "Cloud Computing",
-      issuer: "NPTEL",
-      date: "October 2024",
-      description: "Comprehensive training on cloud computing fundamentals, services, deployment models, and best practices for cloud security and management.",
-      skills: ["AWS", "Cloud Architecture", "Virtualization"],
-      link: "https://drive.google.com/file/d/16-AbF58Sgf0ddUGQKX3P4_X7CLDE7zWc/view?usp=sharing",
-      image: "/images/cloud-computing.png",
-    },
-    {
-      title: "Server-side JavaScript with Node.js",
-      issuer: "Coursera",
-      date: "May 2024",
-      description: "Advanced course covering Node.js concepts, Express framework, RESTful API development, and server-side rendering.",
-      skills: ["Node.js", "Express", "API Design", "MongoDB"],
-      link: "https://www.coursera.org/account/accomplishments/verify/MBYUPQLZHF7Y",
-      image: "/images/nodejs-cert.png",
-    },
-    {
-      title: "HTML, CSS, and Javascript for Web Developers",
-      issuer: "Coursera",
-      date: "May 2024",
-      description: "Full-stack web development fundamentals focusing on responsive design, modern CSS techniques, and dynamic DOM manipulation with JavaScript.",
-      skills: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-      link: "https://www.coursera.org/account/accomplishments/verify/JC3Z37ALM5YQ",
-      image: "/images/html-css-js-cert.png",
-    },
+    title: "Cloud Computing",
+    issuer: "NPTEL (IIT Kharagpur)",
+    date: "Jan – Apr 2025",
+    description:
+      "Completed a 12-week NPTEL course covering cloud computing fundamentals, virtualization, deployment models, and cloud architecture with hands-on assessments.",
+    skills: ["Cloud Computing", "Virtualization", "Cloud Architecture"],
+    link: "",
+    image: "/images/cloud.png",
+  },
+  {
+    title: "Responsive Web Design",
+    issuer: "freeCodeCamp",
+    date: "Nov 2023",
+    description:
+      "Earned certification by completing 300+ hours of coursework focused on responsive design, CSS, Flexbox, Grid, and modern web layout techniques.",
+    skills: ["HTML", "CSS", "Responsive Design"],
+    link: "",
+    image: "/images/fcc.png",
+  },
+  {
+    title: "The Complete 2024 Web Development Bootcamp",
+    issuer: "Udemy",
+    date: "Feb 2024",
+    description:
+      "Comprehensive full-stack development course covering HTML, CSS, JavaScript, React basics, and real-world web development projects.",
+    skills: ["JavaScript", "Web Development", "Frontend"],
+    link: "",
+    image: "/images/webdev.png",
+  },
+  {
+    title: "Android Developer Pro: Hands-On Projects",
+    issuer: "LPU (Centre for Professional Enhancement)",
+    date: "Jun – Jul 2025",
+    description:
+      "Practical Android development training including real-world app building, Play Store deployment, and mobile UI/UX fundamentals.",
+    skills: ["Android", "Java/Kotlin", "App Development"],
+    link: "",
+    image: "/images/android.png",
+  },
   ];
 
   useEffect(() => {

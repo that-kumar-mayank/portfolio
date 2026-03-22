@@ -171,10 +171,10 @@ const Contact = () => {
                     <div>
                       <h4 className="text-sm text-gray-400 font-medium mb-1">Email</h4>
                       <a 
-                        href="mailto:divyanshuvats1006@gmail.com" 
+                        href="mailto:kumarmayank0369@gmail.com" 
                         className="text-indigo-300 hover:text-indigo-200 transition-colors"
                       >
-                        divyanshuvats1006@gmail.com
+                        kumarmayank0369@gmail.com
                       </a>
                     </div>
                   </div>
@@ -186,10 +186,10 @@ const Contact = () => {
                     <div>
                       <h4 className="text-sm text-gray-400 font-medium mb-1">Phone</h4>
                       <a 
-                        href="tel:+918278478622" 
+                        href="tel:+917004924394" 
                         className="text-indigo-300 hover:text-indigo-200 transition-colors"
                       >
-                        +91-8278478622
+                        +91-7004924394
                       </a>
                     </div>
                   </div>
@@ -201,12 +201,12 @@ const Contact = () => {
                     <div>
                       <h4 className="text-sm text-gray-400 font-medium mb-1">LinkedIn</h4>
                       <a 
-                        href="https://www.linkedin.com/in/divyanshuvats-/"
+                        href="https://www.linkedin.com/in/that-kumar-mayank/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-indigo-300 hover:text-indigo-200 transition-colors"
                       >
-                        linkedin.com/in/divyanshuvats-
+                        https://www.linkedin.com/in/that-kumar-mayank/
                       </a>
                     </div>
                   </div>
@@ -218,32 +218,18 @@ const Contact = () => {
                     <div>
                       <h4 className="text-sm text-gray-400 font-medium mb-1">GitHub</h4>
                       <a 
-                        href="https://github.com/divyanshuvats10"
+                        href="https://github.com/that-kumar-mayank"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-indigo-300 hover:text-indigo-200 transition-colors"
                       >
-                        github.com/divyanshuvats10
+                        github.com/that-kumar-mayank
                       </a>
                     </div>
                   </div>
                 </div>
                 
-                <div className="mt-8 pt-6 border-t border-slate-700">
-                  <h4 className="text-sm font-medium text-gray-400 mb-4">Follow Me</h4>
-                  <div className="flex gap-3">
-                    {["twitter", "instagram"].map((social, index) => (
-                      <a 
-                        key={index}
-                        href="#" 
-                        className="w-10 h-10 rounded-full bg-slate-700 hover:bg-indigo-900/60 flex items-center justify-center text-gray-300 hover:text-white transition-colors"
-                        aria-label={social}
-                      >
-                        <span>{social.charAt(0).toUpperCase()}</span>
-                      </a>
-                    ))}
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>

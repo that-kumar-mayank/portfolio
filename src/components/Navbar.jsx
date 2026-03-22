@@ -45,7 +45,7 @@ const Navbar = () => {
           className="relative group text-2xl font-bold"
         >
           <span className={`bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-400 transition-all duration-300`}>
-            DV
+            Kumar Mayank
           </span>
           <span className="ml-1 text-white">Portfolio</span>
           <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 group-hover:w-full transition-all duration-300"></span>
